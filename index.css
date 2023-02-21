@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
+  background: linear-gradient(180deg, #ffffff 0%, #f6f7fb 100%);
 }
 
 /* ---- typography ---- */
@@ -26,9 +27,7 @@ body {
 
 .container {
   max-width: 550px;
-  max-height: 751px;
   margin: 0 auto;
-  background: linear-gradient(180deg, #ffffff 0%, #f6f7fb 100%);
 }
 
 header {
@@ -55,11 +54,11 @@ header {
 }
 
 #card {
-  max-width: 94vw;
+  max-width: 90vw;
   height: 75vh;
   background: #bdbdbd url("images/dog-teddy.jpg") no-repeat center;
   background-size: cover;
-  margin: 0 0.5em;
+  margin: 0 auto;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -102,7 +101,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 1.5em;
-  padding: 1.5em;
+  padding: 1em;
 }
 
 .badge {
