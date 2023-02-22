@@ -26,7 +26,7 @@ body {
 /* ---- layout ---- */
 
 .container {
-  max-width: 550px;
+  max-width: 450px;
   margin: 0 auto;
 }
 
@@ -54,11 +54,12 @@ header {
 }
 
 #card {
-  max-width: 90vw;
+  max-width: 100vw;
   height: 75vh;
+  max-height: 750px;
   background: #bdbdbd url("images/dog-teddy.jpg") no-repeat center;
   background-size: cover;
-  margin: 0 auto;
+  margin: 0 0.5em;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -117,11 +118,6 @@ header {
 /* ---- media ---- */
 
 @media (min-width: 534px) {
-  #card {
-    width: 534px;
-    height: 751px;
-  }
-
   .badge {
     width: 225px;
   }
